@@ -79,3 +79,37 @@
 .pricing-card button:hover {
     background-color: #0056b3;
 }
+
+/* pricing section */
+
+/* footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a {
+    color: white;
+    margin: 0 0.5em;
+    font-size: 1.5em;
+}
+
+footer p {
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+/* footer */
