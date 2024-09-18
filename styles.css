@@ -9,3 +9,31 @@
     color: var(--color-standard);
 }
 /* / reset */
+
+/* definitions (usable for everything, can all be changed in one place here) */
+:root {
+    /* text colors */
+    --color-standard:#174a5a;
+    --color-inverted:white;
+    --color-linkcolor: #498496;
+    --color-highlight: orangered;
+
+    /*  background-colors */
+    --color-bg-normal: #c0d3d9;
+    --color-bg-dark: #174a5a;
+    --color-bg-highlight: orangered;
+
+    /* sizes */
+    --dimension-max-width: 1200px;
+    --dimension-max-padding: 20px;
+
+    /* gaps */
+    --dimension-main-gap: 30px;
+}
+/* / definitions */
+
+/* just a test using definitions*/
+body {
+    background-color: var(--color-bg-normal);
+}
+/* / just a test */
