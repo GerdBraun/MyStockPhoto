@@ -38,3 +38,44 @@
     gap: 1em;
     flex-wrap: wrap;
 }
+.pricing-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pricing-card h3 {
+    margin: 0 0 0.5em;
+}
+
+.pricing-card .price {
+    font-size: 1.5em;
+    margin: 0 0 0.5em;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em;
+}
+
+.pricing-card ul li {
+    margin: 0.5em 0;
+}
+
+.pricing-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-card button:hover {
+    background-color: #0056b3;
+}
