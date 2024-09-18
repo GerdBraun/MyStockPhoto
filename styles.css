@@ -9,6 +9,8 @@
     --color-secondary:#8EAEC4;
     --color-accent:#283132;
     --color-background:#ffffff;
+
+    --width-maxcontent:1200px;
 }
 /* / definitions */
 
@@ -29,3 +31,32 @@ body {
     background-color: var(--color-background);
 }
 /* / just a test */
+
+/* video section */
+section .centered-wrapper {
+    width: 100%;
+    max-width: var(--width-maxcontent);
+    margin: 0 auto;
+    padding: 2rem;
+}
+section.bg-primary {
+    background-color: var(--color-primary);
+}
+section.inverted,
+section.inverted p,
+section.inverted h1,
+section.inverted h2
+{
+    color: var(--color-background);
+}
+section.height-full {
+    min-height: 100vh;
+}
+section.v-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* / video section */
