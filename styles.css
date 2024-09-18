@@ -1,39 +1,31 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* / fonts */
+
+/* definitions (usable for everything, can all be changed in one place here) */
+:root {
+    /* colors */
+    --color-primary:#336A86;
+    --color-secondary:#8EAEC4;
+    --color-accent:#283132;
+    --color-background:#ffffff;
+}
+/* / definitions */
+
 /* reset */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
-    font-family: "Roboto", sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 16px;
-    color: var(--color-standard);
+    color: var(--color-primary);
 }
 /* / reset */
 
-/* definitions (usable for everything, can all be changed in one place here) */
-:root {
-    /* text colors */
-    --color-standard:#174a5a;
-    --color-inverted:white;
-    --color-linkcolor: #498496;
-    --color-highlight: orangered;
-
-    /*  background-colors */
-    --color-bg-normal: #c0d3d9;
-    --color-bg-dark: #174a5a;
-    --color-bg-highlight: orangered;
-
-    /* sizes */
-    --dimension-max-width: 1200px;
-    --dimension-max-padding: 20px;
-
-    /* gaps */
-    --dimension-main-gap: 30px;
-}
-/* / definitions */
-
 /* just a test using definitions*/
 body {
-    background-color: var(--color-bg-normal);
+    background-color: var(--color-background);
 }
 /* / just a test */
