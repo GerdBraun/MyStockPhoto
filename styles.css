@@ -9,3 +9,32 @@
     color: var(--color-standard);
 }
 /* / reset */
+
+/* pricing section */
+
+#pricing {
+    padding: 2em 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#pricing .container{
+    max-width: 1200px;
+}
+
+#pricing h2{
+    font-size: 2em;
+    margin: bottom 0.5em;
+}
+
+#pricing p{
+    margin-bottom: 1.5em;
+    color: #555;
+}
+
+.pricing-cards {
+    display:flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
