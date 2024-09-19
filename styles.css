@@ -59,7 +59,7 @@
     margin: auto;    
   }
 
-  figcaption {
+   .gallery-item2 figcaption {
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
@@ -67,7 +67,7 @@
     text-align: center;
   }
 
-   img {
+  .gallery-item1 img, .gallery-item2 img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -104,7 +104,7 @@
         /* Two columns and rows for smaller screens */
     }
   }
-  @media (max-width: 1270px){
+  @media (min-width:601px) and (max-width: 1270px){
 
     .gallery2 {
       grid-template-columns: repeat(4, 1fr); 
