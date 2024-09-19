@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #8EAEC4; 
     padding: 20px 0;
     position: fixed;
     width: 100%;
@@ -39,14 +39,17 @@ header {
     align-items: center;
 }
 
+
 .logo-container {
     display: flex;
     align-items: center;
 }
 
 .logo {
-    width: 150px;
+    width: 120px; 
+    height: auto;
 }
+
 
 nav ul {
     list-style: none;
@@ -61,18 +64,21 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: smaller;
     font-weight: bold;
+    padding: 10px;
 }
 
 nav ul li a:hover {
-    color: #f0c040;
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px;
 }
 
 .hero {
-    background-image: ''url('/10.jpeg')''; 
+    height: 100vh;
+    background-image: url('images/nature/10.jpg'); 
     background-size: cover;
-    background-position: contain;
-    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +99,7 @@ nav ul li a:hover {
 
 .cta-button {
     background-color: #f0c040;
-    color: #333;
+    color: white;
     padding: 15px 30px;
     text-decoration: none;
     font-weight: bold;
@@ -105,12 +111,13 @@ nav ul li a:hover {
     color: #f0c040;
 }
 
+
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
