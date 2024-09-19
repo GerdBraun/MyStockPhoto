@@ -62,7 +62,7 @@
   figcaption {
     background-color: #222;
     color: #fff;
-    font: italic smaller sans-serif;
+    /*font: italic smaller sans-serif;*/
     padding: 3px;
     text-align: center;
   }
@@ -580,7 +580,7 @@ section.video video {
 }
 
 #pricing .container{
-    max-width: 1200px;
+    /*max-width: 1200px;*/
 }
 
 #pricing h2{
@@ -674,3 +674,58 @@ footer p {
 }
 
 /* footer */
+
+/* quick &  dirty fixes */
+.awesome p,
+.categories-hema p {
+    text-align:center;
+    margin-bottom: 1.5rem;
+}
+
+.gallery1,
+.gallery2 {
+    margin: 0;
+}
+
+.gallery2 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+}
+
+.gallery-item1 img {
+    margin: 0;
+}
+
+section {
+    margin-bottom:0;
+}
+
+.gallery-item2 {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: var(--color-background);
+}
+nav ul li a {
+    color: var(--color-primary);
+    white-space: no-wrap;
+}
+nav ul li a:hover {
+    color:var(--color-background);
+    background-color: var(--color-secondary);
+}
+
+figcaption {
+    font-size: .8rem;
+}
+
+footer p {
+    color:white;
+}
